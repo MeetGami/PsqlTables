@@ -44,11 +44,11 @@ const { Client } = require('pg');
 class Database {
     constructor() {
         this.client = new Client({
-            user: 'yashgami',
+            user: 'postgres',
             host: 'localhost',
-            database: 'hrms',
-            password: '12345',
-            port: 5434,
+            database: 'hrmsdemo',
+            password: 'meet97gami',
+            port: 5432,
         });
         this.connected = false;
     }
